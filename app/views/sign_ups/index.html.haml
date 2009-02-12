@@ -1,0 +1,26 @@
+%h1 Interessenten
+
+%table
+  %thead
+    %tr
+      %th ID
+      %th Email 
+      %th Bemerkung       
+      %th Rails           
+      %th Merb            
+      %th Sinatra
+      %th Createt at         
+  %tbody
+  - @sign_ups.each do |sign_up| 
+    %tr
+      %td= sign_up.id
+      %td= sign_up.e_mail  
+      %td= sign_up.Bemerkung 
+      %td= sign_up.rails? ? "X" : "" 
+      %td= sign_up.merb? ? "X" : "" 
+      %td= sign_up.sinatra? ? "X" : "" 
+      %td= sign_up.created_at
+%br/
+    
+= link_to 'New', new_sign_up_path 
+

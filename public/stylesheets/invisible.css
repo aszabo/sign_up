@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", heveletica, arial, sans-serif;
+  font-size: 75%;
+  line-height: 1.5;
+  /*background: url('/images/invisible/body_stripe.png') repeat-x;*/
+  padding: 0; }
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  background: url('/images/invisible/body.png') repeat-y; }
+
+#banner {
+  height: 128px;
+  background: white url('/images/invisible/banner.png') no-repeat; }
+  #banner h1 {
+    margin: 0;
+    position: absolute;
+    top: 45px;
+    right: 124px;
+    text-indent: -10000px;
+    height: 50px;
+    width: 200px;
+    background: white; }
+    #banner h1 a {
+      display: block;
+      height: 50px;
+      width: 200px;
+      background: white url('/images/invisible/logo.png') no-repeat; }
+
+
+#footer {
+  clear: both;
+  color: #00047C;
+  height: 80px;
+  margin: 0 -10px;
+  padding: 10px 15px;
+  background: white url('/images/invisible/footer.png') no-repeat; }
+  #footer p {
+    font-size: 0.91667em; }
+
+#header {
+  height: 40px; }
+
+#main {
+  width: 580px;
+  float: left;
+  min-height: 300px;
+  margin: 30px 0 0 0;
+  padding: 0 30px; }
+	#main table tr td{
+		border-style: solid;
+		border-color: grey;
+		border-width: 1px;
+		padding: 1px;
+		margin: 0;}
+#info {
+  width: 260px;
+  float: left;
+  min-height: 300px;
+  margin: 30px 0 0 0;
+  padding: 0 30px; }
+
+#navigation {
+  position: absolute; }
+  #navigation ul {
+    margin: 40px 0 0 4px;
+    padding-left: 5px;
+    list-style: none; }
+  #navigation li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0 25px 0 5px;
+    background: url('/images/invisible/blau.png') 0 0 no-repeat; }
+    #navigation li a {
+      font-size: 1.1em;
+      color: #00047C;
+      letter-spacing: .1em;
+      text-decoration: none; }
+    #navigation li ul.sub {
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      width: 400px;
+      list-style: none; }
+      #navigation li ul.sub li.sub {
+        margin: 0 10px 0 0;
+        padding: 5px 5px 0 0;
+        background: none; }
+        #navigation li ul.sub li.sub a {
+          font-size: 1em;
+          letter-spacing: 0; }
+
+p {
+  margin: 0 0 1.5em 0; }

@@ -1,0 +1,24 @@
+!!!
+
+%html 
+  %head
+    %title SignUps: = controller.action_name 
+    = stylesheet_link_tag 'scaffold' 
+    = stylesheet_link_tag 'invisible' 
+
+  %body
+    %p{style="color: green"}= flash[:notice]
+    .container
+      #header
+      #flash
+        = flash[:notice] if flash[:notice]
+        #navigation
+      #banner
+        %h1
+          %a
+      #contents
+        #main
+          = yield
+          #info
+      #footer
+        %p

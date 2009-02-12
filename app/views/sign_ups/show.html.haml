@@ -1,0 +1,25 @@
+= @EMail
+%h2 Vielen Dank, dass Sie sich für unsere Produkte interessieren!
+%p
+  %br/
+  %b Folgende E-Mailadresse wurde übermittelt:
+  %br/
+  = @sign_up.e_mail 
+%p
+  %b Folgender Inhalt wurde übermittelt: 
+  %br/
+  = @sign_up.rails? ? "Rails" : "" 
+  = @sign_up.merb? ? "Merb" : "" 
+  = @sign_up.sinatra? ? "Sinatra" : "" 
+%p
+  %b Mit folgenden Bemerkungen:
+  %br/
+  = @sign_up.Bemerkung
+%p
+  Created at:
+  %br/ 
+  = h @sign_up.created_at 
+
+= link_to 'Back', new_sign_up_path 
+= link_to 'Index', sign_ups_path
+

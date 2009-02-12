@@ -1,0 +1,27 @@
+%h1 ANMELDUNG
+%p Signup for email notifications 
+and we'll let you know when the gears start turning.
+
+- form_for(@sign_up) do |f| 
+
+  = f.error_messages 
+  %p
+    = f.label :e_mail 
+    %br/
+    = f.text_field :e_mail
+  %p
+    = f.label :wahl, 'Rails'
+    = f.check_box :rails 
+    = f.label :wahl, 'Merb' 
+    = f.check_box :merb 
+    = f.label :wahl, 'Sinatra' 
+    = f.check_box :sinatra 
+  %p
+    = f.label :Bemerkung, 'Hier können Sie Ihre Wünsche hinterlassen:'
+    %br/
+    = f.text_area :Bemerkung, :rows => 4, :cols => 50 
+  %p
+    = f.submit 'Klick'
+
+
+

@@ -1,0 +1,792 @@
+Script started on Thu Feb  5 17:12:35 2009
+~/work/sign_up $[00m script/generate migration addauswahl [Kt[K[Kltosign:[K_ups auswahl:string
+      exists  db/migrate
+      create  db/migrate/20090205161328_addauswahltosign_ups.rb
+~/work/sign_up $[00m rake db:migrate
+(in /Users/as/work/sign_up)
+==  AddauswahltosignUps: migrating ============================================
+==  AddauswahltosignUps: migrated (0.0000s) ===================================
+
+~/work/sign_up $[00m rake db:migrate
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m rake db:migratescript/generate migration addauswahltosign_ups auswahl:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmysql -u root[Kscript/generate migration addauswahltosign_ups auswahl:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/auswahl:string
+      exists  db/migrate
+Another migration is already named addauswahltosign_ups: db/migrate/20090205161328_addauswahltosign_ups.rb
+~/work/sign_up $[00m script/generate migration addauswahltosign_ups /auswahl:string
+      exists  db/migrate
+      create  db/migrate/20090206081815_addauswahltosign_ups.rb
+~/work/sign_up $[00m ruby script/generate migration AddAuswahlToSign_ups Auswahl:boolean
+      exists  db/migrate
+      create  db/migrate/20090206081823_add_auswahl_to_sign_ups.rb
+~/work/sign_up $[00m ruby script/generate migration AddAuswahlToSign_ups Auswahl:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pscript/generate migration addauswahltosign_ups /auswahl:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db:migrate[K
+(in /Users/as/work/sign_up)
+==  AddauswahltosignUps: migrating ============================================
+==  AddauswahltosignUps: migrated (0.0001s) ===================================
+
+==  AddAuswahlToSignUps: migrating ============================================
+-- add_column(:sign_ups, :Auswahl, :boolean)
+   -> 0.0272s
+==  AddAuswahlToSignUps: migrated (0.0275s) ===================================
+
+~/work/sign_up $[00m rake db:migrate
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m rake db:migrateuby script/generate migration AddAuswahlToSign_ups Auswahl:boolean[C1:boolean[C[C[C[C[C[C[C[C Auswahl2:boolean Auswahl:3bool ean[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl:3boolean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl:3boollean
+      exists  db/migrate
+      create  db/migrate/20090206083428_add_auswahl2_to_sign_ups.rb
+~/work/sign_up $[00m ruby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl:3boollean[A~/work/sign_up $[00m [Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(in /Users/as/work/sign_up)
+rake aborted!
+./db/migrate//20090206083428_add_auswahl2_to_sign_ups.rb:5: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+    add_column :sign_ups, :Auswahl, :3boolean
+                                      ^
+
+(See full trace by running task with --trace)
+~/work/sign_up $[00m rake db:migrate
+(in /Users/as/work/sign_up)
+rake aborted!
+./db/migrate//20090206083428_add_auswahl2_to_sign_ups.rb:5: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+    add_column :sign_ups, :Auswahl, :3boolean
+                                      ^
+
+(See full trace by running task with --trace)
+~/work/sign_up $[00m rake db:migrateuby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl:3boollean[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cboole[1Pan[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cboolea[1Pn[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3boolean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:boolean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(in /Users/as/work/sign_up)
+^[[Arake aborted!
+./db/migrate//20090206083428_add_auswahl2_to_sign_ups.rb:5: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+    add_column :sign_ups, :Auswahl, :3boolean
+                                      ^
+
+(See full trace by running task with --trace)
+~/work/sign_up $[00m rake db:migrate[Krake db:migrateuby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boollean[A~/work/sign_up $[00m [Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boollean
+      exists  db/migrate
+Another migration is already named add_auswahl2_to_sign_ups: db/migrate/20090206083428_add_auswahl2_to_sign_ups.rb
+~/work/sign_up $[00m ruby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boollean[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boole[1Pan[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+      exists  db/migrate
+      create  db/migrate/20090206083606_add_auswahl3_to_sign_ups.rb
+~/work/sign_up $[00m ruby script/generate migration AddAuswahl3ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boollean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2
+[C[C[C[C[A~/work/sign_up $[00m [Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(in /Users/as/work/sign_up)
+rake aborted!
+./db/migrate//20090206083428_add_auswahl2_to_sign_ups.rb:5: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+    add_column :sign_ups, :Auswahl, :3boolean
+                                      ^
+
+(See full trace by running task with --trace)
+~/work/sign_up $[00m rake db:migrate
+(in /Users/as/work/sign_up)
+==  AddAuswahl3ToSignUps: migrating ===========================================
+-- add_column(:sign_ups, :Auswahl1, :boolean)
+   -> 0.0078s
+-- add_column(:sign_ups, :Auswahl2, :boolean)
+   -> 0.0084s
+-- add_column(:sign_ups, :Auswahl3, :boolean)
+   -> 0.0082s
+==  AddAuswahl3ToSignUps: migrated (0.0251s) ==================================
+
+~/work/sign_up $[00m rake db:migrateuby script/generate migration AddAuswahl3ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boollean[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[1P[1P[1P[1P[1P[1P[1P[1P[4hB[4l[4he[4l[4hm[4l[4he[4l[4hr[4l[4hk[4l[4hu[4l[4hn[4l[4hg[4l[C[C[C[C[C[C[C[C[C[C[CBemerkung:str[K[K[Ktext
+      exists  db/migrate
+      create  db/migrate/20090206093538_add_bemerkung_to_sign_ups.rb
+~/work/sign_up $[00m ruby script/generate migration AddBemerkungToSign_ups Bemerkung:text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K$¨[K
+(in /Users/as/work/sign_up)
+rake aborted!
+Don't know how to build task 'db:migrate$'
+
+(See full trace by running task with --trace)
+~/work/sign_up $[00m rake db:migrate$[K
+(in /Users/as/work/sign_up)
+==  AddBemerkungToSignUps: migrating ==========================================
+-- add_column(:sign_ups, :Bemerkung, :text)
+   -> 0.3370s
+==  AddBemerkungToSignUps: migrated (0.3372s) =================================
+
+~/work/sign_up $[00m rake db:migrate$uby script/generate migration AddBemerkungToSign_ups Bemerkung:text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration AddBemerkungToSign_ups Bemerkung:text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration AddAuswahl3ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boollean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2
+[C[C[C[C[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3
+[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boole[1Pan[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolea[1Pn[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolean[K[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolean [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[4ha[4l[4hu[4l[4hs[4lwToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolean [A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CaToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:booleann[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ChToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ClToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolea[1Pn[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolean[K[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolean [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[4hw[4l[4ha[4l[4hh[4llToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boolean [A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[4hr[4l[4ha[4l[4hi[4l[4hl[4l[4hs[4l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[4hm[4l[4he[4l[4hr[4l[4hb[4l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P:boolean[1P:boolean[1P:boolean[1P:boolean[1P:boolean[1P:boolean[1P:boolean[1P:booleans:booleani:booleann:booleana:booleant:booleanr:booleana:boolean
+      exists  db/migrate
+      create  db/migrate/20090206103021_addwahl_to_sign_ups.rb
+~/work/sign_up $[00m ruby script/generate migration AddwahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+(in /Users/as/work/sign_up)
+==  AddwahlToSignUps: migrating ===============================================
+==  AddwahlToSignUps: migrated (0.0000s) ======================================
+
+~/work/sign_up $[00m rake db:migrate
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m rake db:migrateuby script/generate migration AddwahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[1P[4hW[4l
+      exists  db/migrate
+      create  db/migrate/20090206103252_add_wahl_to_sign_ups.rb
+~/work/sign_up $[00m ruby script/generate migration AddWahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+(in /Users/as/work/sign_up)
+==  AddWahlToSignUps: migrating ===============================================
+-- add_column(:sign_ups, :rails, :boolean)
+   -> 0.3362s
+-- add_column(:sign_ups, :merb, :boolean)
+   -> 0.0108s
+-- add_column(:sign_ups, :sinatra, :boolean)
+   -> 0.0106s
+==  AddWahlToSignUps: migrated (0.3584s) ======================================
+
+~/work/sign_up $[00m ruby script/generate migration RemoveMemoFromFlights  Auswahl:boolean  exists  db/migrate create  d b/migrate/005_remove_Auswahl_from_signs_up.rb
+      exists  db/migrate
+      create  db/migrate/20090206103708_remove_memo_from_flights.rb
+wrong number of arguments (1 for 2)
+~/work/sign_up $[00m ruby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate crea te  db/migrate/005_remove_Auswahl_from_signs_up.rb
+      exists  db/migrate
+      create  db/migrate/20090206103743_remove_auswahl_from_signs_ups.rb
+wrong number of arguments (1 for 2)
+~/work/sign_up $[00m ruby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_signs_up.rb[1P_up.rb
+      exists  db/migrate
+Another migration is already named remove_auswahl_from_signs_ups: db/migrate/20090206103743_remove_auswahl_from_signs_ups.rb
+~/work/sign_up $[00m ruby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb
+      exists  db/migrate
+      create  db/migrate/20090206104226_remove_auswahl_from_signs_ups.rb
+wrong number of arguments (1 for 2)
+~/work/sign_up $[00m ruby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb[C
+      exists  db/migrate
+      create  db/migrate/20090206104257_remove_auswahl_from_signs_ups.rb
+wrong number of arguments (1 for 2)
+~/work/sign_up $[00m ruby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs_up.rb[A[C[C[C[CMemoFromFlights  Auswahl:boolean  exists  db/migrate create  db[5P/migrate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddWahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration RemoveMemoFromFlights  Auswahl:boolean  exists  db/migrate create  dbb/migrate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate create  db/migrate/005_remove_Auswahl_from_signs_up.rb[1P_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cruby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cruby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$$$$rate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[CMemoFromFlights  Auswahl:boolean  exists  db/migrate create  db[5P/migrate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddWahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration AddwahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration AddWahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration RemoveMemoFromFlights  Auswahl:boolean  exists  db/migrate create  dbb/migrate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[C[C[C[C[C[CAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate create  db/migrate/005_remove_Auswahl_from_signs_up.rb[C[C[C[C[C[C[C[C[C[C$$$$[Krate/005_remove_Auswahl_from_sign_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cruby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cruby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb[C[C[C[C[C[C[C[C[C[C$$$$[Krate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[CMemoFromFlights  Auswahl:boolean  exists  db/migrate create  db[5P/migrate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddWahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m rake db:migrateuby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb[C[C[C[C[C[C[C[C[C[C$$$$[Krate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[CMemoFromFlights  Auswahl:boolean  exists  db/migrate create  db[5P/migrate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddWahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration AddwahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K$uby script/generate migration AddBemerkungToSign_ups Bemerkung:text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration AddAuswahl3ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boollean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2
+[C[C[C[C[A~/work/sign_up $[00m [Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl:3boollean[A~/work/sign_up $[00m [Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddAuswahlToSign_ups Auswahl:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pscript/generate migration addauswahltosign_ups /auswahl:string[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kremi[Koveruby script/generate migration RemoveAuswahlFromSign_ups  Auswahl:b oolean  exists  
+      exists  db/migrate
+      create  db/migrate/20090206104625_removeruby.rb
+~/work/sign_up $[00m 
+~/work/sign_up $[00m ruby script/generate migration RemoveAuswahlFromSign_ups  Auswahl:boolean  exists  
+      exists  db/migrate
+      create  db/migrate/20090206104634_remove_auswahl_from_sign_ups.rb
+wrong number of arguments (1 for 2)
+~/work/sign_up $[00m script/generate migration RemoveAuswahlFromSign_ups  Auswahl:boolean
+      exists  db/migrate
+      create  db/migrate/20090206104743_remove_auswahl_from_sign_ups.rb
+~/work/sign_up $[00m script/generate migration RemoveAuswahlFromSign_ups  Auswahl:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cruby script/generate migration RemoveAuswahlFromSign_ups  Auswahl:boolean  exists  [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate migration removeruby script/generate migration RemoveAuswahlFromSign_ups  Auswahl:booolean  exists  [A~/work/sign_up $[00m rake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(in /Users/as/work/sign_up)
+^[[A^[[A==  RemoveAuswahlFromSignUps: migrating =======================================
+-- remove_column(:sign_ups, :Auswahl)
+^R
+^[[A^[[   -> 0.3403s
+==  RemoveAuswahlFromSignUps: migrated (0.3405s) ==============================
+
+^R
+^[[A^[~/work/sign_up $[00m rake db:migrate[Ascript/generate migration RemoveAuswahlFromSign_ups  Auswahl:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db:migrate[A[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript/generate migration RemoveAuswahlFromSign_ups  Auswahl:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cruby script/generate migration RemoveAuswahlFromSign_ups  Auswahl:boolean  exists  [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate migration removeruby script/generate migration RemoveAuswahlFromSign_ups  Auswahl:booolean  exists  [A~/work/sign_up $[00m rake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration RemoveAuswahlFromSigns_ups  Auswahl:boolean  exists  db/migrate creatte  db/migrate/005_remove_Auswahl_from_sign_up.rb[C[C[C[C[C[C[C[C[C[C$$$$[Krate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[CMemoFromFlights  Auswahl:boolean  exists  db/migrate create  db[5P/migrate/005_remove_Auswahl_from_signs_up.rb[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddWahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration AddwahlToSign_ups rails:boolean merb:boolean sinatra:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[K$uby script/generate migration AddBemerkungToSign_ups Bemerkung:text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cake db:migrate[Kuby script/generate migration AddAuswahl3ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl3:boollean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2
+[C[C[C[C[A~/work/sign_up $[00m [Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl:3boollean[A~/work/sign_up $[00m [Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl:3boollean[A~/work/sign_up $[00m [Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddAuswahl2ToSign_ups Auswahl1:boolean Auswahl2:boolean Auswahl:3boollean[A~/work/sign_up $[00m [Cake db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuby script/generate migration AddAuswahlToSign_ups Auswahl:boolean[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pscript/generate migration addauswahltosign_ups /auswahl:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db:migrate[Kscript/generate migration addauswahltosign_ups auswahl:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmysql -u root[K[2Pcd ontrack/[1PanDERA/Desktop/[Kscript/server
+=> Booting Mongrel (use 'script/server webrick' to force WEBrick)
+=> Rails 2.2.2 application starting on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+** Starting Mongrel listening at 0.0.0.0:3000
+Exiting
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/tcphack.rb:12:in `initialize_without_backlog': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/tcphack.rb:12:in `initialize'
+	from /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:93:in `new'
+	from /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:93:in `initialize'
+	from /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:139:in `new'
+	from /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:139:in `listener'
+	from /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:50:in `call'
+	from /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:50:in `initialize'
+	 ... 14 levels...
+	from /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+	from /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+	from script/server:3
+~/work/sign_up $[00m ral[Kke db/migrate[Ke
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m rake db/migrate[2Pscript/server[Kscript/generate migration RemoveAuswahlFromSign_ups  Auswahl:boolean[C1:boolean
+      exists  db/migrate
+Another migration is already named remove_auswahl_from_sign_ups: db/migrate/20090206104743_remove_auswahl_from_sign_ups.rb
+~/work/sign_up $[00m script/generate migration RemoveAuswahlFromSign_ups  Auswahl1:boolean[C[4h_[4l[4h1[4l
+      exists  db/migrate
+      create  db/migrate/20090206104912_remove_auswahl_from_sign_ups1.rb
+~/work/sign_up $[00m script/generate migration RemoveAuswahlFromSign_ups_1  Auswahl1:boolean[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db/migrate[K
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m rake db/migratescript/generate migration RemoveAuswahlFromSign_ups_1  Auswahl1:boolean[C Auswahl2:boolean Auswahl3:n [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb oolean[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db/migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate migration RemoveAuswahlFromSign_ups_1  Auswahl1:boolean Auswahl2:boolean Auswahl3:booolean[C[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+      exists  db/migrate
+      create  db/migrate/20090206105018_remove_auswahl_from_sign_ups1.rb
+wrong number of arguments (1 for 2)
+~/work/sign_up $[00m 
+~/work/sign_up $[00m script/generate migration RemoveAuswahlFromSign_ups_1  Auswahl1:boolean Auswahl2:boolean Auswahl3bo olean[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate migration RemoveAuswahlFromSign_ups_1  Auswahl1:boolean Auswahl2:boolean Auswahl3booolean
+      exists  db/migrate
+Another migration is already named remove_auswahl_from_sign_ups1: db/migrate/20090206105018_remove_auswahl_from_sign_ups1.rb
+~/work/sign_up $[00m script/generate migration RemoveAuswahlFromSign_ups_1  Auswahl1:boolean Auswahl2:boolean Auswahl3booolean[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[A~/work/sign_up $[00m [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate migration RemoveAuswahlFromSign_ups_1  Auswahl1:boolean Auswahl2:boolean Auswahl3booolean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db/migrate[Kscript/generate migration RemoveAuswahlFromSign_ups_1  Auswahl1:boolean[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C Auswahl2:boolean Auswahl3:boo lean
+      exists  db/migrate
+      create  db/migrate/20090206105119_remove_auswahl_from_sign_ups.rb
+~/work/sign_up $[00m script/generate migration RemoveAuswahlFromSign_ups  Auswahl1:boolean Auswahl2:boolean Auswahl3:boollean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_1  Auswahl1:boolean Auswahl2:boolean Auswahl3boolean[A~/work/sign_up $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db/migrate[K
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m 
+~/work/sign_up $[00m rake db/migrate
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m rake db/migrate
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m rails con[K[K[K[K[K[K[K[K[Kscript/generate moder[Kl cona[Ktact na.e[K[K[Kame:string e-[K_[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+      exists  app/models/
+      exists  test/unit/
+      exists  test/fixtures/
+      create  app/models/contact.rb
+      create  test/unit/contact_test.rb
+      create  test/fixtures/contacts.yml
+      exists  db/migrate
+      create  db/migrate/20090206112203_create_contacts.rb
+~/work/sign_up $[00m script/generate model contact [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Prake db/migrate
+(in /Users/as/work/sign_up)
+~/work/sign_up $[00m scrit[Kpt/generate mailer;[KMae[Kil[K[K[K[K[Kr Mail show
+      exists  app/models/
+      create  app/views/mail
+      exists  test/unit/
+      create  test/fixtures/mail
+      create  app/models/mail.rb
+      create  test/unit/mail_test.rb
+      create  app/views/mail/show.erb
+      create  test/fixtures/mail/show
+~/work/sign_up $[00m rake -t [K[K[K[K routes|map
+bash: map: command not found
+~/work/sign_up $[00m rake routes|map[C[1P|map
+bash: map: command not found
+rake aborted!
+Don't know how to build task 'route'
+
+(See full trace by running task with --trace)
+~/work/sign_up $[00m rake route|map[1P|map[1P|map[1P|map[1P|mapo|mapo|mapt|map
+bash: map: command not found
+rake aborted!
+Don't know how to build task 'root'
+
+(See full trace by running task with --trace)
+~/work/sign_up $[00m rake -t route
+(in /Users/as/work/sign_up)
+rake aborted!
+Don't know how to build task 'route'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:1706:in `[]'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:2018:in `invoke_task'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:1997:in `top_level'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:1997:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:1997:in `top_level'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:2036:in `standard_exception_handling'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:1991:in `top_level'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:1970:in `run'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:2036:in `standard_exception_handling'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake.rb:1967:in `run'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/bin/rake:31
+/usr/bin/rake:19:in `load'
+/usr/bin/rake:19
+~/work/sign_up $[00m rake -t routes
+(in /Users/as/work/sign_up)
+** Invoke routes (first_time)
+** Invoke environment (first_time)
+** Execute environment
+** Execute routes
+                        root        /                                           {:controller=>"sign_ups", :action=>"index"}
+                    sign_ups GET    /sign_ups                                   {:controller=>"sign_ups", :action=>"index"}
+          formatted_sign_ups GET    /sign_ups.:format                           {:controller=>"sign_ups", :action=>"index"}
+                             POST   /sign_ups                                   {:controller=>"sign_ups", :action=>"create"}
+                             POST   /sign_ups.:format                           {:controller=>"sign_ups", :action=>"create"}
+                 new_sign_up GET    /sign_ups/new                               {:controller=>"sign_ups", :action=>"new"}
+       formatted_new_sign_up GET    /sign_ups/new.:format                       {:controller=>"sign_ups", :action=>"new"}
+                edit_sign_up GET    /sign_ups/:id/edit                          {:controller=>"sign_ups", :action=>"edit"}
+      formatted_edit_sign_up GET    /sign_ups/:id/edit.:format                  {:controller=>"sign_ups", :action=>"edit"}
+                     sign_up GET    /sign_ups/:id                               {:controller=>"sign_ups", :action=>"show"}
+           formatted_sign_up GET    /sign_ups/:id.:format                       {:controller=>"sign_ups", :action=>"show"}
+                             PUT    /sign_ups/:id                               {:controller=>"sign_ups", :action=>"update"}
+                             PUT    /sign_ups/:id.:format                       {:controller=>"sign_ups", :action=>"update"}
+                             DELETE /sign_ups/:id                               {:controller=>"sign_ups", :action=>"destroy"}
+                             DELETE /sign_ups/:id.:format                       {:controller=>"sign_ups", :action=>"destroy"}
+          sign_up_mail_index GET    /sign_ups/:sign_up_id/mail                  {:controller=>"mail", :action=>"index"}
+formatted_sign_up_mail_index GET    /sign_ups/:sign_up_id/mail.:format          {:controller=>"mail", :action=>"index"}
+                             POST   /sign_ups/:sign_up_id/mail                  {:controller=>"mail", :action=>"create"}
+                             POST   /sign_ups/:sign_up_id/mail.:format          {:controller=>"mail", :action=>"create"}
+            new_sign_up_mail GET    /sign_ups/:sign_up_id/mail/new              {:controller=>"mail", :action=>"new"}
+  formatted_new_sign_up_mail GET    /sign_ups/:sign_up_id/mail/new.:format      {:controller=>"mail", :action=>"new"}
+           edit_sign_up_mail GET    /sign_ups/:sign_up_id/mail/:id/edit         {:controller=>"mail", :action=>"edit"}
+ formatted_edit_sign_up_mail GET    /sign_ups/:sign_up_id/mail/:id/edit.:format {:controller=>"mail", :action=>"edit"}
+                sign_up_mail GET    /sign_ups/:sign_up_id/mail/:id              {:controller=>"mail", :action=>"show"}
+      formatted_sign_up_mail GET    /sign_ups/:sign_up_id/mail/:id.:format      {:controller=>"mail", :action=>"show"}
+                             PUT    /sign_ups/:sign_up_id/mail/:id              {:controller=>"mail", :action=>"update"}
+                             PUT    /sign_ups/:sign_up_id/mail/:id.:format      {:controller=>"mail", :action=>"update"}
+                             DELETE /sign_ups/:sign_up_id/mail/:id              {:controller=>"mail", :action=>"destroy"}
+                             DELETE /sign_ups/:sign_up_id/mail/:id.:format      {:controller=>"mail", :action=>"destroy"}
+                                    /:controller/:action/:id                    
+                                    /:controller/:action/:id.:format            
+~/work/sign_up $[00m rake -t routes[Kroot|mapute|maps|mapscript/generate mailer Mail show[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Prake db/migratescript/generate mailer Mail show[C[K[K[K[K[K[K[K[K[Ke_mail multipart/[K_alternative
+      exists  app/models/
+      create  app/views/e_mail
+      exists  test/unit/
+      create  test/fixtures/e_mail
+      create  app/models/e_mail.rb
+      create  test/unit/e_mail_test.rb
+      create  app/views/e_mail/multipart_alternative.erb
+      create  test/fixtures/e_mail/multipart_alternative
+~/work/sign_up $[00m script/generate mailer e_mail multipart_alternative[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd ..
+~/work $[00m cd ..
+~ $[00m cd Desktop/
+~/Desktop $[00m cd N
+bash: cd: N: No such file or directory
+~/Desktop $[00m CD [K[K[Kcd anDERA/
+~/Desktop/anDERA $[00m cd üben
+~/Desktop/anDERA/üben $[00m mate .
+~/Desktop/anDERA/üben $[00m cd ..
+~/Desktop/anDERA $[00m rails contact
+      create  
+      create  app/controllers
+      create  app/helpers
+      create  app/models
+      create  app/views/layouts
+      create  config/environments
+      create  config/initializers
+      create  config/locales
+      create  db
+      create  doc
+      create  lib
+      create  lib/tasks
+      create  log
+      create  public/images
+      create  public/javascripts
+      create  public/stylesheets
+      create  script/performance
+      create  script/process
+      create  test/fixtures
+      create  test/functional
+      create  test/integration
+      create  test/performance
+      create  test/unit
+      create  vendor
+      create  vendor/plugins
+      create  tmp/sessions
+      create  tmp/sockets
+      create  tmp/cache
+      create  tmp/pids
+      create  Rakefile
+      create  README
+      create  app/controllers/application.rb
+      create  app/helpers/application_helper.rb
+      create  test/test_helper.rb
+      create  test/performance/browsing_test.rb
+      create  config/database.yml
+      create  config/routes.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_rails_defaults.rb
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/environment.rb
+      create  config/environments/production.rb
+      create  config/environments/development.rb
+      create  config/environments/test.rb
+      create  script/about
+      create  script/console
+      create  script/dbconsole
+      create  script/destroy
+      create  script/generate
+      create  script/performance/benchmarker
+      create  script/performance/profiler
+      create  script/performance/request
+      create  script/process/reaper
+      create  script/process/spawner
+      create  script/process/inspector
+      create  script/runner
+      create  script/server
+      create  script/plugin
+      create  public/dispatch.rb
+      create  public/dispatch.cgi
+      create  public/dispatch.fcgi
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/index.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  public/images/rails.png
+      create  public/javascripts/prototype.js
+      create  public/javascripts/effects.js
+      create  public/javascripts/dragdrop.js
+      create  public/javascripts/controls.js
+      create  public/javascripts/application.js
+      create  doc/README_FOR_APP
+      create  log/server.log
+      create  log/production.log
+      create  log/development.log
+      create  log/test.log
+~/Desktop/anDERA $[00m mate .
+~/Desktop/anDERA $[00m v[KEMail[K[K[K[K[Kcript/generate scaffold contact_message name:string \
+>                               email:string message:text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: cript/generate: No such file or directory
+~/Desktop/anDERA $[00m cript/generate scaffold contact_message name:string                               email:string messsage:text[C[C[C[C[C[A~/Desktop/anDERA $[00m mate .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails contact[7Pmate .[K[K[K[K[K[Kscript/generate scaffold contact_message name:string \
+>                               email:string message:text
+bash: script/generate: No such file or directory
+~/Desktop/anDERA $[00m cd contact/
+~/Desktop/anDERA/contact $[00m cd contact/script/generate scaffold contact_message name:string                               email:sstring message:text[A~/Desktop/anDERA/contact $[00m cd contact/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/generate scaffold contact_message name:string                               email:sstring message:text[A~/Desktop/anDERA/contact $[00m cript/generate scaffold contact_message name:string                               email:st[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A~/Desktop/anDERA/contact $[00m mate .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails contact[7Pmate .cript/generate scaffold contact_message name:string                               email:sttring message:text[A~/Desktop/anDERA/contact $[00m script/generate scaffold contact_message name:string                               email:s[4ht[4l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A~/Desktop/anDERA/contact $[00m cd contact/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+~/Desktop/anDERA/contact $[00m 
+~/Desktop/anDERA/contact $[00m 
+~/Desktop/anDERA/contact $[00m 
+~/Desktop/anDERA/contact $[00m 
+~/Desktop/anDERA/contact $[00m script/generate scaffold contact_message name:string email:string message:text
+      exists  app/models/
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/contact_messages
+      exists  app/views/layouts/
+      exists  test/functional/
+      exists  test/unit/
+      exists  public/stylesheets/
+      create  app/views/contact_messages/index.html.erb
+      create  app/views/contact_messages/show.html.erb
+      create  app/views/contact_messages/new.html.erb
+      create  app/views/contact_messages/edit.html.erb
+      create  app/views/layouts/contact_messages.html.erb
+      create  public/stylesheets/scaffold.css
+      create  app/controllers/contact_messages_controller.rb
+      create  test/functional/contact_messages_controller_test.rb
+      create  app/helpers/contact_messages_helper.rb
+       route  map.resources :contact_messages
+  dependency  model
+      exists    app/models/
+      exists    test/unit/
+      exists    test/fixtures/
+      create    app/models/contact_message.rb
+      create    test/unit/contact_message_test.rb
+      create    test/fixtures/contact_messages.yml
+      create    db/migrate
+      create    db/migrate/20090206135506_create_contact_messages.rb
+~/Desktop/anDERA/contact $[00m mate .
+~/Desktop/anDERA/contact $[00m mate .script/generate scaffold contact_message name:string email:string message:text[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd contact/[Kscript/generate scaffold contact_message name:string                               email:sstring message:text[A~/Desktop/anDERA/contact $[00m cript/generate scaffold contact_message name:string                               email:st[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A~/Desktop/anDERA/contact $[00m mate .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails contact[8Pcd ..mate .cd übenanDERA/N[KDesktop/..[Kscript/generate mailer e_mail multipart_alternative[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake -t routes[K[Kroot|mapute|maps|mapscript/generate mailer Mail show[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Prake db/migratescript/generate model contact [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Prake db/migratescript/generate model contact [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Prake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m 
+~/Desktop/anDERA/contact $[00m rake db/migrate$[K
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m rake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m cd
+~ $[00m cd Desktop/
+~/Desktop $[00m cd anDERA/
+~/Desktop/anDERA $[00m cd [K[K[Krails contact
+      create  
+      create  app/controllers
+      create  app/helpers
+      create  app/models
+      create  app/views/layouts
+      create  config/environments
+      create  config/initializers
+      create  config/locales
+      create  db
+      create  doc
+      create  lib
+      create  lib/tasks
+      create  log
+      create  public/images
+      create  public/javascripts
+      create  public/stylesheets
+      create  script/performance
+      create  script/process
+      create  test/fixtures
+      create  test/functional
+      create  test/integration
+      create  test/performance
+      create  test/unit
+      create  vendor
+      create  vendor/plugins
+      create  tmp/sessions
+      create  tmp/sockets
+      create  tmp/cache
+      create  tmp/pids
+      create  Rakefile
+      create  README
+      create  app/controllers/application.rb
+      create  app/helpers/application_helper.rb
+      create  test/test_helper.rb
+      create  test/performance/browsing_test.rb
+      create  config/database.yml
+      create  config/routes.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_rails_defaults.rb
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/environment.rb
+      create  config/environments/production.rb
+      create  config/environments/development.rb
+      create  config/environments/test.rb
+      create  script/about
+      create  script/console
+      create  script/dbconsole
+      create  script/destroy
+      create  script/generate
+      create  script/performance/benchmarker
+      create  script/performance/profiler
+      create  script/performance/request
+      create  script/process/reaper
+      create  script/process/spawner
+      create  script/process/inspector
+      create  script/runner
+      create  script/server
+      create  script/plugin
+      create  public/dispatch.rb
+      create  public/dispatch.cgi
+      create  public/dispatch.fcgi
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/index.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  public/images/rails.png
+      create  public/javascripts/prototype.js
+      create  public/javascripts/effects.js
+      create  public/javascripts/dragdrop.js
+      create  public/javascripts/controls.js
+      create  public/javascripts/application.js
+      create  doc/README_FOR_APP
+      create  log/server.log
+      create  log/production.log
+      create  log/development.log
+      create  log/test.log
+~/Desktop/anDERA $[00m cd contact
+~/Desktop/anDERA/contact $[00m mate .
+~/Desktop/anDERA/contact $[00m mate .cd contact[4hrai[4lls[C[C[C[C[C[C[C[C[3Pcd anDERA/Desktop/[Krake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+rake aborted!
+Don't know how to build task 'db/migrate'
+
+(See full trace by running task with --trace)
+~/Desktop/anDERA/contact $[00m script/generate scaffold mail name:strind[Kg email:string text:[K[K[K[K[Kmessage:test
+      exists  app/models/
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/mails
+      exists  app/views/layouts/
+      exists  test/functional/
+      exists  test/unit/
+      exists  public/stylesheets/
+      create  app/views/mails/index.html.erb
+      create  app/views/mails/show.html.erb
+      create  app/views/mails/new.html.erb
+      create  app/views/mails/edit.html.erb
+      create  app/views/layouts/mails.html.erb
+      create  public/stylesheets/scaffold.css
+      create  app/controllers/mails_controller.rb
+      create  test/functional/mails_controller_test.rb
+      create  app/helpers/mails_helper.rb
+       route  map.resources :mails
+  dependency  model
+      exists    app/models/
+      exists    test/unit/
+      exists    test/fixtures/
+      create    app/models/mail.rb
+      create    test/unit/mail_test.rb
+      create    test/fixtures/mails.yml
+      create    db/migrate
+      create    db/migrate/20090206142238_create_mails.rb
+~/Desktop/anDERA/contact $[00m script/generate scaffold mail name:string email:string message:test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db/migrate[K[9Pmate .rake db/migrate
+$(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m $rake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m rake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m rake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m rake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m rake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m rake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m scr[K[K[Krake db/migratescript/generate scaffold mail name:string email:string message:test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db/migrate[Kscript/generate scaffold mail name:string email:string message:test
+  The name 'MailsHelper' is either already used in your application or reserved by Ruby on Rails.
+  Please choose an alternative and run this generator again.
+~/Desktop/anDERA/contact $[00m script/generate scaffold mail name:string email:string message:test[C[4h_[4l[4h1[4l
+      exists  app/models/
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/mail1s
+      exists  app/views/layouts/
+      exists  test/functional/
+      exists  test/unit/
+      exists  public/stylesheets/
+      create  app/views/mail1s/index.html.erb
+      create  app/views/mail1s/show.html.erb
+      create  app/views/mail1s/new.html.erb
+      create  app/views/mail1s/edit.html.erb
+      create  app/views/layouts/mail1s.html.erb
+   identical  public/stylesheets/scaffold.css
+      create  app/controllers/mail1s_controller.rb
+      create  test/functional/mail1s_controller_test.rb
+      create  app/helpers/mail1s_helper.rb
+       route  map.resources :mail1s
+  dependency  model
+      exists    app/models/
+      exists    test/unit/
+      exists    test/fixtures/
+      create    app/models/mail1.rb
+      create    test/unit/mail1_test.rb
+      create    test/fixtures/mail1s.yml
+      exists    db/migrate
+      create    db/migrate/20090206150412_create_mail_1s.rb
+~/Desktop/anDERA/contact $[00m script/generate scaffold mail_1 name:string email:string message:test[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db/migrate[K
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m rake db/migratescript/generate scaffold mail_1 name:string email:string message:test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db/migrate[K[Krake db/migratescript/generate scaffold mail_1 name:string email:string message:test[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmodel hallo name:string
+      exists  app/models/
+      exists  test/unit/
+      exists  test/fixtures/
+      create  app/models/hallo.rb
+      create  test/unit/hallo_test.rb
+      create  test/fixtures/hallos.yml
+      exists  db/migrate
+      create  db/migrate/20090206151056_create_hallos.rb
+~/Desktop/anDERA/contact $[00m script/generate model hallo name:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Prake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m cd
+~ $[00m cd Desktop/
+~/Desktop $[00m cd anDERA/
+~/Desktop/anDERA $[00m rails contact
+      create  
+      create  app/controllers
+      create  app/helpers
+      create  app/models
+      create  app/views/layouts
+      create  config/environments
+      create  config/initializers
+      create  config/locales
+      create  db
+      create  doc
+      create  lib
+      create  lib/tasks
+      create  log
+      create  public/images
+      create  public/javascripts
+      create  public/stylesheets
+      create  script/performance
+      create  script/process
+      create  test/fixtures
+      create  test/functional
+      create  test/integration
+      create  test/performance
+      create  test/unit
+      create  vendor
+      create  vendor/plugins
+      create  tmp/sessions
+      create  tmp/sockets
+      create  tmp/cache
+      create  tmp/pids
+      create  Rakefile
+      create  README
+      create  app/controllers/application.rb
+      create  app/helpers/application_helper.rb
+      create  test/test_helper.rb
+      create  test/performance/browsing_test.rb
+      create  config/database.yml
+      create  config/routes.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_rails_defaults.rb
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/environment.rb
+      create  config/environments/production.rb
+      create  config/environments/development.rb
+      create  config/environments/test.rb
+      create  script/about
+      create  script/console
+      create  script/dbconsole
+      create  script/destroy
+      create  script/generate
+      create  script/performance/benchmarker
+      create  script/performance/profiler
+      create  script/performance/request
+      create  script/process/reaper
+      create  script/process/spawner
+      create  script/process/inspector
+      create  script/runner
+      create  script/server
+      create  script/plugin
+      create  public/dispatch.rb
+      create  public/dispatch.cgi
+      create  public/dispatch.fcgi
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/index.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  public/images/rails.png
+      create  public/javascripts/prototype.js
+      create  public/javascripts/effects.js
+      create  public/javascripts/dragdrop.js
+      create  public/javascripts/controls.js
+      create  public/javascripts/application.js
+      create  doc/README_FOR_APP
+      create  log/server.log
+      create  log/production.log
+      create  log/development.log
+      create  log/test.log
+~/Desktop/anDERA $[00m cd ca[Kontact
+~/Desktop/anDERA/contact $[00m script/generate scaffold mail
+      exists  app/models/
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/mails
+      exists  app/views/layouts/
+      exists  test/functional/
+      exists  test/unit/
+      exists  public/stylesheets/
+      create  app/views/mails/index.html.erb
+      create  app/views/mails/show.html.erb
+      create  app/views/mails/new.html.erb
+      create  app/views/mails/edit.html.erb
+      create  app/views/layouts/mails.html.erb
+      create  public/stylesheets/scaffold.css
+      create  app/controllers/mails_controller.rb
+      create  test/functional/mails_controller_test.rb
+      create  app/helpers/mails_helper.rb
+       route  map.resources :mails
+  dependency  model
+      exists    app/models/
+      exists    test/unit/
+      exists    test/fixtures/
+      create    app/models/mail.rb
+      create    test/unit/mail_test.rb
+      create    test/fixtures/mails.yml
+      create    db/migrate
+      create    db/migrate/20090206151717_create_mails.rb
+~/Desktop/anDERA/contact $[00m mate .
+~/Desktop/anDERA/contact $[00m mate .script/generate scaffold mail[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcd contact[4hrai[4lls[C[C[C[C[C[C[C[C[3Pcd anDERA/Desktop/[Krake db/migratescript/generate model hallo name:string[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Prake db/migrate
+(in /Users/as/Desktop/anDERA/contact)
+~/Desktop/anDERA/contact $[00m 
